@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+const int dimension = 9;
+
+int arena[dimension][dimension];
+
+int main() {
+    for(int row = 0; row < dimension; row++) {
+        for(int column = 0; column < dimension; column++) {
+            cout << arena[row][column] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
